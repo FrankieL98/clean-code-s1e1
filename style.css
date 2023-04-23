@@ -40,7 +40,7 @@ body {
 .list__label {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .add-task__wrapper {
@@ -138,7 +138,7 @@ body {
 }
 
 .list__item-task > .input {
-  width: 226px
+  width: 226px;
 }
 
 .list__remove-pic {
@@ -154,19 +154,19 @@ body {
 /* Completed */
 
 .completed__list .list__label {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 
 .list__item-task .input {
-  display: none
+  display: none;
 }
 
 .list__item-task_edit-mode .input {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .list__item-task_edit-mode .list__label{
